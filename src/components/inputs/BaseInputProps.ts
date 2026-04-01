@@ -171,6 +171,11 @@ export const tbaMatchNumberInputSchema = inputBaseSchema.extend({
 
 export const sectionSchema = z.object({
   name: z.string(),
+  color: z
+    .string()
+    .regex(/^#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{6})$/)
+    .optional()
+    .describe('Optional hex color for the section box border (e.g., #FF4A4A)'),
   fields: z.array(
     z.discriminatedUnion('type', [
       counterInputSchema,

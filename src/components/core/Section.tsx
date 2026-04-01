@@ -3,12 +3,17 @@ import { Card, CardContent, CardHeader, CardTitle } from '../ui/card';
 type SectionProps = {
   children?: React.ReactNode;
   title?: string;
+  color?: string;
 };
 
 export function Section(props: SectionProps) {
   return (
     <Card>
-      <CardHeader>
+      <CardHeader
+        style={{
+          backgroundColor: props.color,
+        }}
+      >
         {props.title && (
           <CardTitle className="font-rhr-ns">{props.title}</CardTitle>
         )}
