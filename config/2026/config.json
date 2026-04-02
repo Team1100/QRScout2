@@ -229,27 +229,7 @@
           }
         },
         {
-          "title": "Percent Total Teleop Fuel",
-          "description": "What percentage of the total fuel scored in teleop was scored by this robot",
-          "type": "select",
-          "required": true,
-          "code": "TF%",
-          "formResetBehavior": "reset",
-          "defaultValue": "",
-          "choices": {
-            "0.0": "0%",
-            "1.00": "100%",
-            ".945": "90-99%",
-            ".8": "70-90%",
-            ".6": "50-70%",
-            ".5": "50%",
-            ".4": "30-50%",
-            ".2": "10-30%",
-            ".05": "1-10%"
-          }
-        },
-        {
-          "title": "Accuracy?",
+          "title": "Hub Fuel Accuracy",
           "type": "select",
           "required": true,
           "code": "Accuracy?C",
@@ -351,14 +331,15 @@
           "defaultValue": false
         },
         {
-          "title": "Alliance Score Percentage",
-          "description": "What percentage of your alliance's fuel did this robot contribute?",
+          "title": "Percent Total Teleop Fuel",
+          "description": "What percentage of the total fuel scored in teleop was scored by this robot",
           "type": "select",
           "required": true,
-          "code": "AS%",
+          "code": "TF%",
           "formResetBehavior": "reset",
           "defaultValue": "",
           "choices": {
+            "0.0": "0%",
             "1.00": "100%",
             ".945": "90-99%",
             ".8": "70-90%",
@@ -366,8 +347,7 @@
             ".5": "50%",
             ".4": "30-50%",
             ".2": "10-30%",
-            ".05": "1-10%",
-            "0.0": "0%"
+            ".05": "1-10%"
           }
         },
         {
