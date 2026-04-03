@@ -200,35 +200,6 @@
           "defaultValue": 0
         },
         {
-          "title": "Ferry Type",
-          "type": "select",
-          "required": true,
-          "code": "ferryTypeAuto",
-          "formResetBehavior": "reset",
-          "defaultValue": "",
-          "choices": {
-            "None": "None",
-            "Push": "Push",
-            "Shoot": "Shoot",
-            "Both": "Both"
-          }
-        },
-        {
-          "title": "Ferry Effectiveness",
-          "type": "select",
-          "required": true,
-          "code": "ferryEffAuto",
-          "formResetBehavior": "reset",
-          "defaultValue": "",
-          "choices": {
-            "None": "None",
-            "Ineffective": "Ineffective",
-            "Somewhat Effective": "Somewhat Effective",
-            "Effective": "Effective",
-            "Very Effective": "Very Effective"
-          }
-        },
-        {
           "title": "Hub Fuel Accuracy",
           "type": "select",
           "required": true,
